@@ -7,23 +7,20 @@
     <title>Modelo Cajas Floats</title>
 </head>
 <body>
-   <div class=" max-w-3xl container bg-red-400 text-white mx-auto">
+   <div class=" max-w-3xl container bg-red-400 text-white mx-auto grid grid-cols-4">
         
-        <header class="bg-blue-400 h-10">
+        <header class ="bg-blue-400 h-10 col-span-4">
             el encabezado
-        </heade>
-        <section class="bg-amber-400 flex flex-row-reverse">
-            <nav class="bg-purple-300 w-1/4 h-[101px]">
+        </header>
+    
+            <nav class="bg-purple-300  h-[101px]">
                 opciones
             </nav>
-            <article class="bg-teal-300 w-3/4 ">
+            <article class="bg-teal-300  col-span-3 ">
                 Aca el contenido de la seccion
             </article>
        
-        </section>
-        
-       
-        <footer class="bg-orange-600">
+        <footer class="bg-orange-600 col-span-4">
             Pie de pagina
         </footer>
    </div>
